@@ -1,9 +1,13 @@
-
+import Header from "./structure/Header";
+import Footer from "./structure/Footer";
+import Home from "./routes/home/Home";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
