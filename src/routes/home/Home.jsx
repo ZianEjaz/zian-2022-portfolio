@@ -4,7 +4,7 @@ import JsonCodeEditor from '../../components/JsonCodeEditor'
 const Home = () => {
   return (
     <div>
-        < JsonCodeEditor />
+        < JsonCodeEditor jsonData={{data:"jsonData"}}/>
     </div>
   )
 }
